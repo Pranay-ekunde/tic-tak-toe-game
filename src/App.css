@@ -48,10 +48,10 @@
 }
 
 .board {
-  display: grid;
+  display: grid ;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
   margin: 0% auto;
-  max-width: 200px;
-
+  max-width: 250px;
+  border: 2px solid black;
 }
